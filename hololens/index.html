@@ -1,0 +1,62 @@
+<html>
+  <head>
+    <title>hololens</title>
+    <style>
+      body { 
+        margin: 0 !important;
+        height: 100% !important;
+        width: 100% !important;
+      }
+      #arjsDebugUIContainer {
+        display: none !important;
+      }
+      a-scene {
+        display: none !important;
+      }
+    </style>
+    <script src="./vendors/aframe.min.js"></script>
+    <script src="./vendors/aframe-ar.js"></script>
+  </head>
+  <body>
+    <!-- When you're ready to deploy your app, update this line to point to your compiled client.bundle.js -->
+    <script src="./build/client.bundle.js"></script>
+    <script>
+      // Initialize the React VR application
+      ReactVR.init(
+        // When you're ready to deploy your app, update this line to point to
+        // your compiled index.bundle.js
+        './build/index.bundle.js',
+        // Attach it to the body tag
+        document.body
+      );
+    </script> 
+  </body>
+</html>
+
+<!-- Dev version:
+
+<script src="./client.bundle?platform=vr"></script>
+  <script>
+    // Initialize the React VR application
+    ReactVR.init(
+      // When you're ready to deploy your app, update this line to point to
+      // your compiled index.bundle.js
+      '../index.vr.bundle?platform=vr&dev=true',
+      // Attach it to the body tag
+      document.body
+    );
+  </script> -->
+
+<!-- Prod version:
+
+<script src="./build/client.bundle.js"></script>
+    <script>
+      // Initialize the React VR application
+      ReactVR.init(
+        // When you're ready to deploy your app, update this line to point to
+        // your compiled index.bundle.js
+        './build/index.bundle.js',
+        // Attach it to the body tag
+        document.body
+      );
+    </script> -->

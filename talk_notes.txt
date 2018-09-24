@@ -1,0 +1,27 @@
+Apps:
+- Default marker AR demo up and running (https://192.168.43.75:3001)
+- Custom marker AR demo up and running (https://192.168.43.75:3002)
+- HelloVR up and running (localhost:9000)
+- PositionVR up and running (localhost:9001)
+- EventsVR up and running (http://192.168.43.75:8000) - visible in GearVR
+- AudienceVR up and running via https (https://192.168.43.75:8001) - visible in GearVR
+- Presentation running on localhost:5000
+
+- Developer mode -> duplicate screen (480p)
+- Hotspot on Samsung S4
+- Both Mac and Samsung S7 Edge connected to the hotspot
+- MirrorOp prepared on the left desktop
+- Presentation on the middle desktop
+- HelloVR & PositionVR on the right desktop
+
+
+
+
+// React 360
+- Formerly known as ReactVR
+- You can imagine my surprise when I had all the slides ready and then React 360 was released
+- How to start
+- It's still React - state and events 
+- Surfaces 
+- 3D Models 
+- VR Demo

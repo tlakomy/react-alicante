@@ -1,0 +1,7 @@
+style={{
+    transform: [
+      {translate: [0, 2, 0]},
+      {rotateZ : 90},
+      {scale : 0.01 },
+    ],
+  }}
